@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{1a925d1b-f59a-4793-9d14-cb0d240ea4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window\include">
+      <UniqueIdentifier>{3b1b372c-a9cb-4ae6-8214-10240c140400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window\src">
+      <UniqueIdentifier>{2f579845-f4e6-441d-9f7d-d978169d41ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{e64d1ccd-fb53-4701-a6eb-bafb7f03a8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\Manager">
+      <UniqueIdentifier>{216272f2-7290-4c83-92ca-fbf64677e911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\include">
+      <UniqueIdentifier>{c881dcb5-45db-41b0-9f60-1e25e5925a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\src">
+      <UniqueIdentifier>{1a11d285-1b5b-4400-9a13-b5d6dbeb4552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{e985a015-fb11-4e05-8fe7-e934ce17f4c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\include">
+      <UniqueIdentifier>{2c1ec13f-5253-4b6e-9e3b-a03c3cc49dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\src">
+      <UniqueIdentifier>{d887ff8d-cc1c-4c97-96a2-7ce0c6142229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataBase">
+      <UniqueIdentifier>{33fd751f-3187-4280-8d5b-bac39d699833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{e196136e-a24f-4a35-a57d-6fb42083eadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{ce777b99-10ee-4fa8-ad06-1dbd2fdbac27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\Factory">
+      <UniqueIdentifier>{0a5cbdc5-cb1c-424c-b220-fcbbb3ace45f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DuiMenu.cpp">
+      <Filter>Window\src</Filter>
+    </ClCompile>
+    <ClCompile Include="LiceseWnd.cpp">
+      <Filter>Window\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MapConfigWnd.cpp">
+      <Filter>Window\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTableWnd.cpp">
+      <Filter>Window\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SetupWnd.cpp">
+      <Filter>Window\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Map\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractMap.cpp">
+      <Filter>Map\src</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractMapItem.cpp">
+      <Filter>Map\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicMap.cpp">
+      <Filter>Map\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicMapItem.cpp">
+      <Filter>Map\src</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonUtils.cpp">
+      <Filter>Utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="CppSQLite3.cpp">
+      <Filter>DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="AMessageBox.cpp">
+      <Filter>Window\src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstarctMapFactory.cpp">
+      <Filter>Map\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="MapFactory.cpp">
+      <Filter>Map\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrameWnd.cpp">
+      <Filter>Window\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AMessageBox.h">
+      <Filter>Window\include</Filter>
+    </ClInclude>
+    <ClInclude Include="DuiMenu.h">
+      <Filter>Window\include</Filter>
+    </ClInclude>
+    <ClInclude Include="LiceseWnd.h">
+      <Filter>Window\include</Filter>
+    </ClInclude>
+    <ClInclude Include="MapConfigWnd.h">
+      <Filter>Window\include</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTableWnd.h">
+      <Filter>Window\include</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupWnd.h">
+      <Filter>Window\include</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Map\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMap.h">
+      <Filter>Map\include</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMapItem.h">
+      <Filter>Map\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicMap.h">
+      <Filter>Map\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicMapItem.h">
+      <Filter>Map\include</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonUtils.h">
+      <Filter>Utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="CppSQLite3.h">
+      <Filter>DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstarctMapFactory.h">
+      <Filter>Map\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="MapFactory.h">
+      <Filter>Map\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrameWnd.h">
+      <Filter>Window\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HelloDui.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="EShopWidgets.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
